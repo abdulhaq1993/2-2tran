@@ -1,0 +1,28 @@
+.box {
+    position: relative;
+    background-color: rgb(206, 194, 194);
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    width: 90%;
+    height: 250px;
+ }
+ div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+ }
+ .div1{
+    left: 0;
+    background-color: red;
+    transition: 3s;
+ }
+ .div2{
+    left: 0;
+    top: 125px;
+    background-color: green;
+    transition: 2s;
+    transition-delay: 1s;
+ }
+ section:hover div {
+    left: 90%;
+}
